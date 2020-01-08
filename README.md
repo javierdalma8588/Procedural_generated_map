@@ -1,5 +1,7 @@
 # Procedural_generated_map
 
+Catrina's Plight developed on Unity 5 using C# by Javier Dalma.
+
 On this repository you can see the code I did to create a procedural generated map using Unity 5, it has some limitation as it only works with basic shapes of room as I used a 2d matrix to build it. 
 
 Please take a look at the Room Scheme.PDF document to understand more about how the level generator works and what kind of mazes you could get.
@@ -14,5 +16,11 @@ so this script is incharge of picking 1 of the enemy encounters you put in the r
 Wall.cs: this is a script that has a function to fade walls, as we had a camera wit a 3/4 view the wall covered the player so if the player was covered by the wall. The wall will fade to almost invisible
 
 Door.cs: finally the doorhave a script attached thar cover the players exit. the only wait to past trought is to destroy it so the player has to shoot to the door.
+
+More comments about the code and how it works are on every .cs file.
+
+If you want to learn more about the game check the promo video:
+
+https://www.youtube.com/watch?v=BGqxvSEvG6o
 
 Hope it can help!
