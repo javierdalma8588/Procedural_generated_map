@@ -6,6 +6,8 @@ On this repository you can see the code I did to create a procedural generated m
 
 Please take a look at the Room Scheme.PDF document to understand more about how the level generator works and what kind of mazes you could get.
 
+There are also example images of how the dungeon could be.
+
 -grid.cs: this script it attached to an empty gameobject. Is the one that builds the maze it assigns the rooms and fills the maze matrix with the number on the rooms. After it builds the maze it close every exit that has no room connected.
 
 -BaseRoom.cs: is the script the goes attached to the room prefab. It has 4 booleans where you should assign the exits on the rooms, and it will automaticali fill the grid matrix. It also has a function that rotates the room and the inside matrix to chek if it fits on the maze.
