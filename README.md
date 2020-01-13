@@ -24,5 +24,6 @@ If you want to learn more about the game check the promo video:
 
 https://www.youtube.com/watch?v=BGqxvSEvG6o
  
+If you want the project you can get it on:
 
-Hope it can help!
+https://drive.google.com/open?id=1hEGV7icUGABBWUziNjoqxOsFm4T46cdI
