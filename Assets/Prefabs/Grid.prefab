@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2112143918177483549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7888183620490259639}
+  - component: {fileID: 9075248612617219767}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7888183620490259639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112143918177483549}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9075248612617219767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112143918177483549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd1634f462a3f042a772e7940047b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartRoom: {fileID: 5792354105480599819, guid: c3758a8d4179a824a9333351bd3c7c64, type: 3}
+  BossRoom: {fileID: 2493011151573272695, guid: 140f14af5560add4684bfc9142b91324, type: 3}
+  BuildDelay: 0.1
+  WantedRooms: 20
+  Rooms:
+  - {fileID: -3327596985081542888, guid: cd6235db7163ff5429a68da227843652, type: 3}
+  - {fileID: 3006017352225966054, guid: 21a0a419ed2aa5944ae1297097c7b6ff, type: 3}
+  - {fileID: -2567013378422479844, guid: e3af3700cf60afd45b9ab898af14935f, type: 3}
+  - {fileID: -5486943539111801713, guid: 36d7e37a1f3f02a488393f413c3f26d9, type: 3}
