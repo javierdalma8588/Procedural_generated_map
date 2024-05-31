@@ -23,7 +23,4 @@ More comments about the code and how it works are on every .cs file.
 If you want to learn more about the game check the promo video:
 
 https://www.youtube.com/watch?v=BGqxvSEvG6o
- 
-If you want the project you can get it on:
 
-https://drive.google.com/open?id=1hEGV7icUGABBWUziNjoqxOsFm4T46cdI
